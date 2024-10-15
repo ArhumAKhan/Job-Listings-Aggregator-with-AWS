@@ -1,0 +1,16 @@
+{
+  "name": "aws-job-scraper",
+  "version": "1.0.0",
+  "description": "Scrape job listings using Puppeteer and upload them to AWS S3",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer-core": "^13.0.0",
+    "chrome-aws-lambda": "^10.0.0",
+    "aws-sdk": "^2.995.0"
+  },
+  "scripts": {
+    "start": "node puppeteer_scraper.js"
+  },
+  "author": "Arhum Khan",
+  "license": "ISC"
+}
